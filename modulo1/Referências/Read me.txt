@@ -1,0 +1,60 @@
+Referências: livros da O'Reilly
+
+HTML5
+CSS
+Flexbox in CSS
+Grid Layout in CSS
+
+Refrência: Manuais das Linguagens
+
+Existe um atalho criado na aba de todos os favoritos.
+
+Livros:
+
+- Elizabeth Castro e Bruce Hyslop (Alta Books)
+- John Duckett (Alta Books)
+- Elisabeth Robson e Eric Freeman (Alta Books)
+- Nate Cooper e Kim Gee (Novatec) (Livro para incentivar um jovem a aprender programação)
+
+Livros da Editora Novatec: Maurício Samy Silva
+
+- HTML 5
+- HTML5 e CSS3
+- CSS3
+- CSS Grid Layout
+
+Livros de Design: Opcionais
+
+- Curso de Design Gráfico (David Dabner e outros, editora GG)
+- Design: Bob e Mag Gordon (Senac)
+- A psicologia das Cores (Eva Heller, editora GG)
+- Pensar com tipos: Ellen Lupton (editora GG)
+
+Livros Mais Antigos (mas recomendados):
+
+- Flex Explained: Jorge MOntoya e Stephen Burge (editora OSTRaining)
+- CSS Grid Explained: Jorge Montoya e Stephen Burge (idem)
+- HTML5: Bill Sanders (Bookman)
+- Smashing CSS: Eric Meyer (Idem)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

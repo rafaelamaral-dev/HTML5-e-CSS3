@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das Imagens</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente aumentar o tamanho da sua janela para aproveitar melhor a experiência &#129299;</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="paisagem-g.png"> <!-- 1200x489 -->
+        <source media="(min-width: 750px)" srcset="paisagem-m.png">  <!-- 740x489 -->
+        <img src="paisagem-p.png" alt="Foto em tamanho pequeno">       <!-- 265x489 -->
+    </picture>
+</body>
+</html>

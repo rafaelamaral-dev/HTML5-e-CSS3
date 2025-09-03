@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas, Áudio e Vídeo</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas, Áudio e Video</h1>
+    <h2>Imagens Dinâmicas</h2>
+    <p>Veja abaixo uma imagem que muda dinamicamente:</p>
+    <picture>
+    <source media="(max-width: 750px)" srcset="foto-p.jpg" type="image/jpeg">
+    <source media="(max-width: 1050px)" srcset="foto-m.jpg" type="image/jpeg">
+    <img src="foto-g.jpg" alt="A imagem flexível funciona bem em qualquer dispositivo">
+    </picture>
+    <h2>Áudio</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <h2>Vídeo</h2>
+    <p>Para reproduzir vídeos podem ser utilizadas duas formas:</p>
+    <ol type="1">
+        <li>
+            Vídeo hospedado no próprio servidor, usando a tag <code>&lt;video&gt;</code>:</li>
+            <video width="500" controls poster="limoes-capa.png"><!--Atributo poster é opcional, mas é interessante para definir a capa--><!--Atributo controls é obrigatório para exibir os controles de reprodução--><!--Atributo width é opcional, mas é interessante para definir a largura do vídeo--><!--Atributo autoplay é opcional, mas interessante para iniciar a reprodução automaticamente--><!--Atributo loop é opcional, mas interessante para repetir o vídeo--><!--Atributo preload é opcional, mas interessante para carregar o vídeo antes da reprodução--><!--Atributo muted é opcional, mas interessante para silenciar o vídeo--><!--Atributo playsinline é opcional, mas interessante para reproduzir o vídeo em tela cheia em dispositivos móveis--><br>
+                <source src="meu-video.mp4" type="video/mp4">
+                <source src="meu-video.webm" type="video/webm">
+                <source src="meu-video.ogv" type="video/ogg">
+                <source src="meu-video.m4v" type="video/mp4">
+                <p>Seu navegador não suporta vídeo. <a href="midia/meu-video.mp4" download="meu-video.mp4">Baixe o vídeo aqui</a>.</p>
+            </video>
+        <br>
+        <li>Vídeo incorporado de um serviço externo, como o YouTube, usando a tag <code>&lt;iframe&gt;</code>:</li>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/8mei6uVttho?si=AicTfcAl4Yj5cACH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+    </ol>
+</body>
+</html>
+
+</body>
+</html>

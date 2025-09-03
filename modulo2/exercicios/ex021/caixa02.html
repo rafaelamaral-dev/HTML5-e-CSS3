@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: darkgray;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.363);
+            /* Coloque a sombra aqui nas CSS ( 1px 1px 1px 1px black - genérico), depois abra o editor de sombras no Dev Tools do Google Crome (Ferramentas do Desenvolvedor) e edite a box shadow. */
+            
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(71, 67, 67);
+        }
+
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px; /* Arredondamento dos cantos */;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.363);
+        }
+        footer {
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            background-color: black;
+            color: white;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%; /* Arredondamento para fazer um círculo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Meu Site</h1>  
+      <nav>
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+      </nav>
+
+    </header>
+    <main>
+        <section id="Asuntos">
+            <h2>Bem-vindo ao meu site!</h2>
+            <p>Este é um exemplo de como agrupar tags HTML para criar uma estrutura de página.</p>
+        </section>
+        <section>
+            <article>
+                <h3>Artigo 1</h3>
+                <p>Conteúdo do primeiro artigo.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h3>Artigo 2</h3>
+                <p>Conteúdo do segundo artigo.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Arcemeta Digital</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

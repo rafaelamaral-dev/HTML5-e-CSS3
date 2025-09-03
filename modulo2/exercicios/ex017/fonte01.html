@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;  
+            /* Medidas Absolutas
+            cm, mm, in, px (recomendação oficial W3 em telas), pt, pc
+            
+            Medidas Relativas
+            em (recomendação oficial W3 em telas), ex, rem, vw, vh, %*
+            16px geralmente = 1em*/  
+            font-size: 1em; /* 1em é relativo ao tamanho da fonte do elemento pai */
+        }
+        h1 {
+            /* shorthand font
+            - font style -> font-weight -> font size -> font family 
+            
+            font-family: 'Work Sans', Sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: italic bolder 3em 'Work Sans', Sans-serif; /* Usando a propriedade shorthand */
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', Sans-serif; /* Usando a propriedade shorthand */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod minima odit pariatur recusandae voluptatibus dolores sit vel ipsa mollitia obcaecati, corrupti aliquam explicabo minus et suscipit officiis error autem necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis placeat pariatur odio! Provident, ratione sit soluta quia dolorem tempora iure maiores voluptates, labore nemo illo, magni repellendus voluptas quam repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ad repellendus aperiam natus maiores similique reprehenderit repellat expedita officiis vero facilis recusandae fugit, eius voluptate ratione delectus ipsa labore. Iste!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, non ab reiciendis eveniet doloribus quod, suscipit assumenda fugit esse pariatur, obcaecati sapiente corporis nesciunt molestias facilis quia asperiores incidunt vitae!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, id accusantium soluta quo repellendus cupiditate, nihil tenetur dolores, sint sit distinctio vero omnis autem fugiat neque. Sed animi magni ipsa.</p>
+</body>
+</html>
